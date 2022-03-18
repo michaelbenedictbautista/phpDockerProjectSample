@@ -11,5 +11,5 @@ $items = $book -> getItems();
 $loader = new \Twig\Loader\FilesystemLoader("templates");
 $twig = new Twig\Environment( $loader, [ "cache" => false ] );
 
-echo $twig -> render("home.html.twig", ["page_title" => "TextReview", "greeting" => "Hello to my website", "books" => $items ] );
+echo $twig -> render("home.html.twig", ["page_title" => "TextReview", "greeting" => "Hello to my cat website", "books" => $items ] );
 ?>

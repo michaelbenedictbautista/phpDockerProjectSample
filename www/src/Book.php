@@ -58,7 +58,7 @@ class Book extends Database {
                 {
                     array_push( $items, $row ); // get the array result
                 }
-                $books["Total"] = count($items); // array or collection of all items
+                $books["total"] = count($items); // array or collection of all items
                 $books["items"] = $items; // actual book data  
 
                 return $books;
@@ -71,11 +71,10 @@ class Book extends Database {
              echo $exception = getMessage();   
         }
     }
-}
-
-// public function getDetail() {
-
     
-// }
+    public function getDetail() { 
+      
+    }
+}
  
 ?>
