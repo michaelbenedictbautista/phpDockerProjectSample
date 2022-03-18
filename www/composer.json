@@ -1,14 +1,4 @@
 {
-<<<<<<< HEAD
-  "require": {
-    "twig/twig": "^3.0"
-  },
-
-  "autoload": {
-    "psr-4": { "textreview\\": "src/"}
-  }
-}
-=======
     "require": {
         "twig/twig": "^3.0"
     },
@@ -16,4 +6,3 @@
         "psr-4": {"textreview\\": "src/"}
     }
 }
->>>>>>> edf5e036a018e5fd72a0e902f9f80b3ee38ee623
