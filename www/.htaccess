@@ -1,6 +1,6 @@
 # Database Credentials
-SetEnv dbuser appUser
-SetEnv dbpass 1234
+SetEnv dbuser root
+SetEnv dbpass zaqxsw123
 SetEnv dbname bookdb
 SetEnv dbhost db
 # On Xampp
